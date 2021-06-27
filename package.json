@@ -6,22 +6,26 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
+    "watch": "nodemon server.js",
     "lite-server": "lite-server"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/coding-boot-camp/unit18hw.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Luis Cabrera <luis.cabrera@gmail.com> (https://github.com/luiscabrera77)",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/coding-boot-camp/unit18hw/issues"
+    "url": "https://github.com/luiscabrera77/budget-tracker/issues"
   },
-  "homepage": "https://github.com/coding-boot-camp/unit18hw#readme",
+  "homepage": "https://github.com/luiscabrera77/budget-tracker",
   "dependencies": {
     "compression": "^1.7.4",
     "express": "^4.17.1",
     "mongoose": "^5.5.15",
     "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
   }
 }
